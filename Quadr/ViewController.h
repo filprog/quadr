@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StartGameButton.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    float _w, _h;
+}
 
+@property (retain, nonatomic) IBOutlet StartGameButton *btStartGame6;
+@property (retain, nonatomic) IBOutlet StartGameButton *btStartGame7;
+@property (retain, nonatomic) IBOutlet StartGameButton *btStartGame8;
+@property (retain, nonatomic) IBOutlet StartGameButton *btStartGame9;
+@property (retain, nonatomic) IBOutlet StartGameButton *btStartGame10;
 
 @end
 
