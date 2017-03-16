@@ -1,5 +1,5 @@
 //
-//  UIButton+StartButton.h
+//  StartGameButton.h
 //  Quadr
 //
 //  Created by Michal Mesyjasz on 15.03.2017.
@@ -11,5 +11,7 @@
 @interface StartGameButton : UIButton {
     
 }
+
+- (id)init;
 
 @end
